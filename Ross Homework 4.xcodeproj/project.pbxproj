@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		822162332404945D00D5FB46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822162322404945D00D5FB46 /* AppDelegate.swift */; };
+		822162352404945D00D5FB46 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822162342404945D00D5FB46 /* SceneDelegate.swift */; };
+		822162372404945D00D5FB46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822162362404945D00D5FB46 /* ViewController.swift */; };
+		8221623A2404945D00D5FB46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 822162382404945D00D5FB46 /* Main.storyboard */; };
+		8221623C2404945F00D5FB46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8221623B2404945F00D5FB46 /* Assets.xcassets */; };
+		8221623F2404945F00D5FB46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8221623D2404945F00D5FB46 /* LaunchScreen.storyboard */; };
+		8221624A2404945F00D5FB46 /* Ross_Homework_4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822162492404945F00D5FB46 /* Ross_Homework_4Tests.swift */; };
+		822162552404945F00D5FB46 /* Ross_Homework_4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822162542404945F00D5FB46 /* Ross_Homework_4UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		822162462404945F00D5FB46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 822162272404945D00D5FB46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8221622E2404945D00D5FB46;
+			remoteInfo = "Ross Homework 4";
+		};
+		822162512404945F00D5FB46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 822162272404945D00D5FB46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8221622E2404945D00D5FB46;
+			remoteInfo = "Ross Homework 4";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8221622F2404945D00D5FB46 /* Ross Homework 4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ross Homework 4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		822162322404945D00D5FB46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		822162342404945D00D5FB46 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		822162362404945D00D5FB46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		822162392404945D00D5FB46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8221623B2404945F00D5FB46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8221623E2404945F00D5FB46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		822162402404945F00D5FB46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		822162452404945F00D5FB46 /* Ross Homework 4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ross Homework 4Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		822162492404945F00D5FB46 /* Ross_Homework_4Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ross_Homework_4Tests.swift; sourceTree = "<group>"; };
+		8221624B2404945F00D5FB46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		822162502404945F00D5FB46 /* Ross Homework 4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ross Homework 4UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		822162542404945F00D5FB46 /* Ross_Homework_4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ross_Homework_4UITests.swift; sourceTree = "<group>"; };
+		822162562404945F00D5FB46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8221622C2404945D00D5FB46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		822162422404945F00D5FB46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8221624D2404945F00D5FB46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		822162262404945D00D5FB46 = {
+			isa = PBXGroup;
+			children = (
+				822162312404945D00D5FB46 /* Ross Homework 4 */,
+				822162482404945F00D5FB46 /* Ross Homework 4Tests */,
+				822162532404945F00D5FB46 /* Ross Homework 4UITests */,
+				822162302404945D00D5FB46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		822162302404945D00D5FB46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8221622F2404945D00D5FB46 /* Ross Homework 4.app */,
+				822162452404945F00D5FB46 /* Ross Homework 4Tests.xctest */,
+				822162502404945F00D5FB46 /* Ross Homework 4UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		822162312404945D00D5FB46 /* Ross Homework 4 */ = {
+			isa = PBXGroup;
+			children = (
+				822162322404945D00D5FB46 /* AppDelegate.swift */,
+				822162342404945D00D5FB46 /* SceneDelegate.swift */,
+				822162362404945D00D5FB46 /* ViewController.swift */,
+				822162382404945D00D5FB46 /* Main.storyboard */,
+				8221623B2404945F00D5FB46 /* Assets.xcassets */,
+				8221623D2404945F00D5FB46 /* LaunchScreen.storyboard */,
+				822162402404945F00D5FB46 /* Info.plist */,
+			);
+			path = "Ross Homework 4";
+			sourceTree = "<group>";
+		};
+		822162482404945F00D5FB46 /* Ross Homework 4Tests */ = {
+			isa = PBXGroup;
+			children = (
+				822162492404945F00D5FB46 /* Ross_Homework_4Tests.swift */,
+				8221624B2404945F00D5FB46 /* Info.plist */,
+			);
+			path = "Ross Homework 4Tests";
+			sourceTree = "<group>";
+		};
+		822162532404945F00D5FB46 /* Ross Homework 4UITests */ = {
+			isa = PBXGroup;
+			children = (
+				822162542404945F00D5FB46 /* Ross_Homework_4UITests.swift */,
+				822162562404945F00D5FB46 /* Info.plist */,
+			);
+			path = "Ross Homework 4UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8221622E2404945D00D5FB46 /* Ross Homework 4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 822162592404946000D5FB46 /* Build configuration list for PBXNativeTarget "Ross Homework 4" */;
+			buildPhases = (
+				8221622B2404945D00D5FB46 /* Sources */,
+				8221622C2404945D00D5FB46 /* Frameworks */,
+				8221622D2404945D00D5FB46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ross Homework 4";
+			productName = "Ross Homework 4";
+			productReference = 8221622F2404945D00D5FB46 /* Ross Homework 4.app */;
+			productType = "com.apple.product-type.application";
+		};
+		822162442404945F00D5FB46 /* Ross Homework 4Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8221625C2404946000D5FB46 /* Build configuration list for PBXNativeTarget "Ross Homework 4Tests" */;
+			buildPhases = (
+				822162412404945F00D5FB46 /* Sources */,
+				822162422404945F00D5FB46 /* Frameworks */,
+				822162432404945F00D5FB46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				822162472404945F00D5FB46 /* PBXTargetDependency */,
+			);
+			name = "Ross Homework 4Tests";
+			productName = "Ross Homework 4Tests";
+			productReference = 822162452404945F00D5FB46 /* Ross Homework 4Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8221624F2404945F00D5FB46 /* Ross Homework 4UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8221625F2404946000D5FB46 /* Build configuration list for PBXNativeTarget "Ross Homework 4UITests" */;
+			buildPhases = (
+				8221624C2404945F00D5FB46 /* Sources */,
+				8221624D2404945F00D5FB46 /* Frameworks */,
+				8221624E2404945F00D5FB46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				822162522404945F00D5FB46 /* PBXTargetDependency */,
+			);
+			name = "Ross Homework 4UITests";
+			productName = "Ross Homework 4UITests";
+			productReference = 822162502404945F00D5FB46 /* Ross Homework 4UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		822162272404945D00D5FB46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Emily Ross";
+				TargetAttributes = {
+					8221622E2404945D00D5FB46 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					822162442404945F00D5FB46 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 8221622E2404945D00D5FB46;
+					};
+					8221624F2404945F00D5FB46 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 8221622E2404945D00D5FB46;
+					};
+				};
+			};
+			buildConfigurationList = 8221622A2404945D00D5FB46 /* Build configuration list for PBXProject "Ross Homework 4" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 822162262404945D00D5FB46;
+			productRefGroup = 822162302404945D00D5FB46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8221622E2404945D00D5FB46 /* Ross Homework 4 */,
+				822162442404945F00D5FB46 /* Ross Homework 4Tests */,
+				8221624F2404945F00D5FB46 /* Ross Homework 4UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8221622D2404945D00D5FB46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8221623F2404945F00D5FB46 /* LaunchScreen.storyboard in Resources */,
+				8221623C2404945F00D5FB46 /* Assets.xcassets in Resources */,
+				8221623A2404945D00D5FB46 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		822162432404945F00D5FB46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8221624E2404945F00D5FB46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8221622B2404945D00D5FB46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				822162372404945D00D5FB46 /* ViewController.swift in Sources */,
+				822162332404945D00D5FB46 /* AppDelegate.swift in Sources */,
+				822162352404945D00D5FB46 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		822162412404945F00D5FB46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8221624A2404945F00D5FB46 /* Ross_Homework_4Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8221624C2404945F00D5FB46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				822162552404945F00D5FB46 /* Ross_Homework_4UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		822162472404945F00D5FB46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8221622E2404945D00D5FB46 /* Ross Homework 4 */;
+			targetProxy = 822162462404945F00D5FB46 /* PBXContainerItemProxy */;
+		};
+		822162522404945F00D5FB46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8221622E2404945D00D5FB46 /* Ross Homework 4 */;
+			targetProxy = 822162512404945F00D5FB46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		822162382404945D00D5FB46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				822162392404945D00D5FB46 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8221623D2404945F00D5FB46 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8221623E2404945F00D5FB46 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		822162572404945F00D5FB46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		822162582404945F00D5FB46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8221625A2404946000D5FB46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FX553XR2X7;
+				INFOPLIST_FILE = "Ross Homework 4/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "emilyross.com.Ross-Homework-4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8221625B2404946000D5FB46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FX553XR2X7;
+				INFOPLIST_FILE = "Ross Homework 4/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "emilyross.com.Ross-Homework-4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8221625D2404946000D5FB46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FX553XR2X7;
+				INFOPLIST_FILE = "Ross Homework 4Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "emilyross.com.Ross-Homework-4Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ross Homework 4.app/Ross Homework 4";
+			};
+			name = Debug;
+		};
+		8221625E2404946000D5FB46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FX553XR2X7;
+				INFOPLIST_FILE = "Ross Homework 4Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "emilyross.com.Ross-Homework-4Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ross Homework 4.app/Ross Homework 4";
+			};
+			name = Release;
+		};
+		822162602404946000D5FB46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FX553XR2X7;
+				INFOPLIST_FILE = "Ross Homework 4UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "emilyross.com.Ross-Homework-4UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ross Homework 4";
+			};
+			name = Debug;
+		};
+		822162612404946000D5FB46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FX553XR2X7;
+				INFOPLIST_FILE = "Ross Homework 4UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "emilyross.com.Ross-Homework-4UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ross Homework 4";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8221622A2404945D00D5FB46 /* Build configuration list for PBXProject "Ross Homework 4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				822162572404945F00D5FB46 /* Debug */,
+				822162582404945F00D5FB46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		822162592404946000D5FB46 /* Build configuration list for PBXNativeTarget "Ross Homework 4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8221625A2404946000D5FB46 /* Debug */,
+				8221625B2404946000D5FB46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8221625C2404946000D5FB46 /* Build configuration list for PBXNativeTarget "Ross Homework 4Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8221625D2404946000D5FB46 /* Debug */,
+				8221625E2404946000D5FB46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8221625F2404946000D5FB46 /* Build configuration list for PBXNativeTarget "Ross Homework 4UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				822162602404946000D5FB46 /* Debug */,
+				822162612404946000D5FB46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 822162272404945D00D5FB46 /* Project object */;
+}
